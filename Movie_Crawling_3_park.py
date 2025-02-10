@@ -83,6 +83,7 @@ time.sleep(2)
 srolling()
 time.sleep(5)
 
+# 홈키 클릭
 driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.HOME)
 time.sleep(1)
 
